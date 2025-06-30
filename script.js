@@ -7,5 +7,5 @@ function jogoDois() {
 }
 
 function jogoTres() {
-  window.location.href = "https://github.com/FerSouzza/projeto2/tree/main/JogoNumeroSecreto/index.html";
+  window.location.href = "https://fersouzza.github.io/projeto2/JogoNumeroSecreto/index.html";
 }
