@@ -4,7 +4,6 @@ function jogoUm() {
   document.getElementById("conteudo").src = 
     "https://fersouzza.github.io/projeto2/exemplometodolista/index.html";
 
-  document.querySelector(".gif").innerHTML = "";
 }
 
 function jogoDois() {
@@ -12,8 +11,6 @@ function jogoDois() {
 
   document.getElementById("conteudo").src = 
     "https://fersouzza.github.io/projeto2/formulario/index.html";
-
-  document.querySelector(".gif").innerHTML = "";
 }
 
 function jogoTres() {
@@ -22,5 +19,4 @@ function jogoTres() {
   document.getElementById("conteudo").src = 
     "https://fersouzza.github.io/projeto2/JogoNumeroSecreto/index.html";
 
-  document.querySelector(".gif").innerHTML = "";
 }
