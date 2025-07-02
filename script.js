@@ -1,22 +1,22 @@
-function jogoUm() {
-  document.querySelector("h1").textContent = "Você escolheu Manipulando Frutas!";
+function carregarJogo(nomeJogo) {
+  const conteudo = document.getElementById('conteudo');
+  const pasta = `jogos/${nomeJogo}`;
 
-  document.getElementById("conteudo").src = 
-    "https://fersouzza.github.io/projeto2/exemplometodolista/index.html";
-
+  conteudo.innerHTML = `
+    <iframe src="${JogoNumeroSecreto}/index.html"
+            width="100%" height="600"
+            style="border:1px solid #ccc;">
+    </iframe>`;
 }
-
-function jogoDois() {
-  document.querySelector("h1").textContent = "Você escolheu Formulário de Valores!";
-
-  document.getElementById("conteudo").src = 
-    "https://fersouzza.github.io/projeto2/formulario/index.html";
+  conteudo.innerHTML = `
+    <iframe src="${exemplometodolista}/index.html"
+            width="100%" height="600"
+            style="border:1px solid #ccc;">
+    </iframe>`;
 }
-
-function jogoTres() {
-  document.querySelector("h1").textContent = "Você escolheu Número Secreto!";
-
-  document.getElementById("conteudo").src = 
-    "https://fersouzza.github.io/projeto2/JogoNumeroSecreto/index.html";
-
+  conteudo.innerHTML = `
+    <iframe src="${formulario}/index.html"
+            width="100%" height="600"
+            style="border:1px solid #ccc;">
+    </iframe>`;
 }
