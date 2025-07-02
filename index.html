@@ -2,20 +2,18 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <title>Meus Jogos</title>
-  <link rel="stylesheet" href="estilos.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minha Aplicação Web</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Selecione um jogo:</h1>
-  <div id="menu">
-    <button onclick="carregarJogo('JogoNumeroSecreto')">Número Secreto</button>
-    <button onclick="carregarJogo('exemplometodolista')">Método Lista</button>
-    <button onclick="carregarJogo('formulario')">Formulário</button>
-  </div>
+  <h1>Escolha seu jogo</h1>
 
-  <div id="conteudo">
-   
-  </div>
+  <button onclick="jogoUm()">Formulário de Valores</button>
+  <button onclick="jogoDois()">Número secreto</button>
+  <button onclick="jogoTres()">Manipulando Frutas</button>
+
+  <div id="conteudo"></div>
 
   <script src="script.js"></script>
 </body>
